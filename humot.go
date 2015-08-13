@@ -26,7 +26,6 @@ var httpClient = &http.Client{Transport: transport}
 var errorMsg = regexp.MustCompilePOSIX(`[^:]*$`)
 
 func humot(url string, responses chan<- string) {
-	// fmt.Print("Go!")
 	for {
 		res, err := httpClient.Get(url)
 		if err == nil {
@@ -38,7 +37,6 @@ func humot(url string, responses chan<- string) {
 				errStr = err.Error()
 			}
 			responses <- "Error(" + errStr + ")"
-			// fmt.Print(err)
 		}
 	}
 }
@@ -75,7 +73,6 @@ func main() {
 			statusCount[s]++
 			total++
 		case t := <-ticker:
-			// fmt.Println(t.Sub(startTime), "Requests:", total, "Responses:", statusCount)
 			fmt.Print(t.Sub(startTime))
 			for k, v := range statusCount {
 				fmt.Printf(" | %v: %v", k, v)

@@ -1,11 +1,11 @@
-# HUMOT #
-*[hew-moe] hypersonic http load tester*
 
      _   _ _   _ __  __  ___ _____ 
     | | | | | | |  \/  |/ _ \_   _|
     | |_| | | | | |\/| | | | || |  
     |  _  | |_| | |  | | |_| || |  
     |_| |_|\___/|_|  |_|\___/ |_|  
+
+*[hew-moe] hypersonic http load tester*
 
 ## Usage ##
 
@@ -41,3 +41,10 @@
 ## Build from source ##
 
     go build humot.go
+
+## tl;dr ##
+
+    curl -O https://github.com/fotoetienne/humot/releases/download/v0.1/humot ; chmod +x humot
+    ./humot http://myawesomewebsite.me 200000
+
+
