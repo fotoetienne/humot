@@ -45,7 +45,7 @@
 
 ## tl;dr ##
 
-    // Download the latest release (https://github.com/fotoetienne/humot/releases)
+    // Download the latest release (https://github.com/fotoetienne/humot/releases)[https://github.com/fotoetienne/humot/releases]
     chmod +x humot
     ./humot http://myawesomewebsite.me 200
 
