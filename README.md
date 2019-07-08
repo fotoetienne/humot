@@ -40,11 +40,12 @@
 
 ## Build from source ##
 
-    go build humot.go
+    cd ~/go/src/humot
+    go build
 
 ## tl;dr ##
 
-    curl -O https://github.com/fotoetienne/humot/releases/download/v0.1/humot ; chmod +x humot
-    ./humot http://myawesomewebsite.me 200000
-
+    // Download the latest release (https://github.com/fotoetienne/humot/releases)
+    chmod +x humot
+    ./humot http://myawesomewebsite.me 200
 
