@@ -60,7 +60,7 @@ func main() {
 
 	fmt.Printf("Hitting %s with %d concurrent requests ... (^C to stop)\n", URL, CONCURRENCY)
 	responses := make(chan string, CONCURRENCY)
-	for i := 1; i < CONCURRENCY; i++ {
+	for i := 1; i <= CONCURRENCY; i++ {
 		go humot(URL, responses)
 	}
 	statusCount := make(map[string]int)
