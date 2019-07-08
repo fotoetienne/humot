@@ -40,7 +40,7 @@
 
 ## Quick Start ##
 
-  1) Download the latest release (https://github.com/fotoetienne/humot/releases)[https://github.com/fotoetienne/humot/releases]
+  1) Download the latest release [https://github.com/fotoetienne/humot/releases](https://github.com/fotoetienne/humot/releases)
 
   2) Make it excutable
   
