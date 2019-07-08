@@ -38,14 +38,19 @@
     30.005023182s | 200: 15853 | Error(i/o timeout): 166 | Total:  16019
     32.005028904s | 200: 16322 | Error(i/o timeout): 166 | Total:  16488
 
+## Quick Start ##
+
+  1) Download the latest release (https://github.com/fotoetienne/humot/releases)[https://github.com/fotoetienne/humot/releases]
+
+  2) Make it excutable
+  
+    chmod +x humot
+    
+  3) Hit it
+  
+    ./humot http://myawesomewebsite.me 200
+
 ## Build from source ##
 
     cd ~/go/src/humot
     go build
-
-## tl;dr ##
-
-    // Download the latest release (https://github.com/fotoetienne/humot/releases)[https://github.com/fotoetienne/humot/releases]
-    chmod +x humot
-    ./humot http://myawesomewebsite.me 200
-
